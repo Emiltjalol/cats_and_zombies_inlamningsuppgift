@@ -56,13 +56,13 @@ function renderGame() {
       cell.dataset.x = x;
       cell.dataset.y = y;
       if (x === playerX && y === playerY) {
-        cell.innerHTML = `<img src="images/sunglassemoji.webp" class="emoji" alt="Player">`;
+        cell.innerHTML = `<img src="images/sunglassemoji.webp" class="emoji" alt="player">`;
       }
       else if (x === catX && y === catY) {
-        cell.innerHTML = `<img src="images/catemoji.webp" class="emoji" alt="Cat">`;
+        cell.innerHTML = `<img src="images/catemoji.webp" class="emoji" alt="cat">`;
       }
        else if (x === zombieX && y === zombieY) {
-         cell.innerHTML = `<img src="images/zombie2.png" class="emoji" alt="Zombie">`;
+         cell.innerHTML = `<img src="images/zombie2.png" class="emoji" alt="zombie">`;
        }
       else {
         cell.textContent = '';
